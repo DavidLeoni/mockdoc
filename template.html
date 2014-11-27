@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title id="mockdoc-title"></title>
+
+        <link href="mockdoc.css" type="text/css" rel="stylesheet" />
+        <link href="mymocks.css" type="text/css" rel="stylesheet" />
+        <link href="externals/jquery-ui/jquery-ui-mockdoc.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+
+        <div id="mockdoc-intro" class="mockdoc-descr">
+            <h3>
+                <a id="mockdoc-project"  >
+                    
+                </a>
+                <span id="mockdoc-topic" >  </span> <br/>
+            </h3>
+            <br/>
+            <table class="mockdoc-revision-table">
+
+                <tr>
+                    <th>
+                        Version
+                    </th>
+                    <th>
+                        Date
+                    </th>
+                    <th>
+                        Description
+                    </th>
+
+                    <th>
+                        Author
+                    </th>
+
+
+                </tr>
+                <tr>
+                    <td>
+                        0.1
+                    </td>
+
+                    <td>
+                        24 nov 2014
+                    </td>
+                    <td>
+                        Created mockup
+                    </td>
+                    <td>
+                        MrBean
+                    </td>
+
+                </tr>
+            </table>
+            <br/>
+            Shows Admin UI bla bla bla 
+
+            <div id="mockdoc-instructions">
+                <h4 >Instructions</h4>
+                <ul>
+                    <li> This is an interactive version of the mockups. You can also <a id="mockdoc-pdflink"> download a pdf version </a> (some non essential image parts are voluntarily cropped in the pdf version)</li>
+                    <li> Hover on red circles to see a description of the relative item </li>                    
+                    
+                    <li> Only Chrome browser with a recent version is supported</li>                
+                    
+                </ul>
+
+            </div>
+
+
+            <h4>Description</h4>
+            The UI allows the Admin to monitor each website you visit and how many times you go to the toilet per day, bla bla bla...
+            <br/>
+            
+
+            <p id="mockdoc-circle-descr">                
+                <span>We now describe the corresponding red circles shown in next page screen: </span> <br/><br/>                
+            </p>
+
+        </div>            
+
+
+
+        <div class="screen-table">
+
+
+            <div style="display:flex; min-width:100%; ">
+                <div id="leftpart">
+                    
+                </div>
+                
+                <div id="rightpart" style="min-width:70%; ">
+                    <div id="nav-bar" class="top-bar">
+                        Bla bla
+                    </div>
+                    
+                    <div class="mockdoc-note" title="This button allows to check emails">a)</div>                                                        <button>Check email</button>   
+                    <div class="mockdoc-note has-tooltip-in-html-example" title="">b)</div> <!-- notice title must be always present for jquery ui to work-->
+                    <button>Check websites</button>   
+                    
+                </div>
+
+            </div>
+
+            <div style="display:none">
+                <div id="tooltip-in-html-example">
+                    Example link: <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox/"> Try Flexbox layout! </a> <br/>              
+                </div>
+            </div>
+
+        </div>
+
+            
+            
+            
+        <script src="externals/jquery-1.7.2.min.js"></script>        
+        <script src="externals/jquery-ui/jquery-ui-1.10.3.custom.js"></script>        
+        <script src="mockdoc.js"></script>
+
+        <script src="mymocks.js"></script>             
+    </body>
+</html>
